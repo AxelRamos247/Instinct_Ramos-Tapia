@@ -1,0 +1,338 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family: 'Arvo', serif;
+    color: #fff;
+
+}
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    background:  url(imagenes/fondo.jpg);
+    background-position: top;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+}
+
+.banner .navbar {
+    margin-top: 4%;
+}
+
+
+.banner .navbar-brand{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-left: 5%;
+}
+
+.banner .nav { 
+    margin-left: 60%;
+}
+
+.banner .nav li a {
+    font-size: 1.2em;
+    color: #aaa;
+}
+
+.banner .info {
+    margin-top: 15%;
+    transform: translateY(-15%);
+}
+
+.banner .info h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #aaa;
+    letter-spacing: 2px;
+}
+
+.banner .info p {
+    font-size: 2em;
+    font-weight: 500;
+    color: #aaa;
+    letter-spacing: 2px;
+    margin-bottom: 10%;
+}
+
+.banner .info .boton-inicio {
+    margin-left: 40%;
+    transform: translateY(-50%);
+    color: #fff;
+    /* background: #6200b35e; */
+    /* padding: 10px 20px; */
+    font-weight: 600;
+}
+
+.banner .info a:hover {
+    background: #8224eebd;
+}
+
+/* Seccion nosotros */
+
+/* Seccion nosotros */
+.nosotros__inicio {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+  }
+  
+  .nosotros__inicio .nosotros__inicioinfo {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .nosotros__inicio .nosotros__inicioinfo .nosotros__titulo {
+    border-left: 2px solid rgba(219, 84, 253, 0.877);
+    padding: 10px 15px;
+    font-size: 2.5em;
+    font-weight: 700;
+  }
+  
+  .nosotros__inicio .nosotros__inicioinfo .nosotros__parrafo {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #5e5e6e;
+  }
+  
+  #nosotros .nosotros__imagen {
+    margin-top: 10%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 10%;
+  }
+  
+  #nosotros .nosotros__imagen img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 250px;
+    width: 100%;
+  }
+  
+  .objetivos__inicio {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+  }
+  
+  .objetivos__inicio .objetivos__info {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .objetivos__inicio .objetivos__info .objetivos__titulo {
+    border-left: 2px solid rgba(63, 214, 25, 0.877);
+    padding: 10px 15px;
+    font-size: 2.5em;
+    font-weight: 700;
+  }
+  
+  .objetivos__inicio .objetivos__parrafo {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #5e5e6e;
+  }
+  
+  .culturas__inicio {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+  }
+  
+  .culturas__inicio .culturas__info {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .culturas__inicio .culturas__info .culturas__titulo {
+    border-left: 2px solid rgba(95, 244, 255, 0.993);
+    padding: 10px 15px;
+    font-size: 2.5em;
+    font-weight: 700;
+  }
+  
+  .culturas__inicio .culturas__parrafo {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #5e5e6e;
+  }
+
+
+
+
+/* Inicio seccion productos */
+.productos .productos__titulo {
+    text-align: center;
+    color: blue;
+    margin-top: 7%;
+    padding: 10px 15px;
+    font-size: 2.5em;
+    font-weight: 700;
+  }
+  
+  .new {
+    width: 100%;
+    margin-top: 10%;
+    letter-spacing: 1px;
+  }
+  
+  .new h2 {
+    background: black;
+    color: #fff;
+    width: 200px;
+    font-size: 24px;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid blue;
+  }
+  
+  .new__products {
+    margin-top: 30px;
+  }
+  
+  .new__products img {
+    width: 100%;
+  }
+  
+  .new__products:hover .new__iconsell {
+    opacity: 1;
+    margin-left: 5%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .new__productsbottoms .fas {
+    color: #fc1515;
+    font-size: 10px;
+  }
+  
+  .new__productsbottoms .far {
+    color: #fc1b1b;
+    font-size: 10px;
+  }
+  
+  .new__productsbottoms h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .new__productsbottoms h5 {
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+  
+  .new__iconsell {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+    width: 70px;
+  }
+  
+  .new__iconsell .fas .far {
+    cursor: pointer;
+    background-color: black;
+    color: #000;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin: 5%;
+    margin-bottom: 5%;
+  }
+  
+  #demo {
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    height: 40%;
+  }
+  
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  
+
+/* Fin seccion productos */
+
+/* Inicio footer */
+
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 55vh;
+    margin-top: 10vh;
+    padding: 50px 100px;
+    background: rgb(5, 5, 5);
+}
+.footer .footer__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footer__logoinfo h2 {       
+     color: red;
+}    
+
+
+.social__list{
+    margin-top: 20px;
+    display: grid;
+    grid-gap: 10px;
+}
+.social__list  li{
+        list-style: none;
+}
+.social__list li a{
+    display:inline-block;
+    width: 58px;
+    height: 59px;
+    background-color: rgb(24, 8, 116);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.social__list li a:hover {
+    background: white;
+}
+.social__list li .fab {
+    color: rgb(231, 3, 3);
+    font-size: 20px;
+ }
+.recursos__menu {
+    position: relative;
+}
+.recursos__menu   li {
+    list-style: none;
+}
+.recursos__menu   li a {
+    color: red;
+}
+.recursos__menu   li a:hover {
+    background: white;
+}
+    
+.copyright {
+    width: 100%;
+    background: blue;
+    padding: 8px 100px;
+    text-align: center;
+    color: white;
+}
+
+
